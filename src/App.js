@@ -1,23 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <h1>Me du Restaurant</h1>
+      <div className="menu">
+        <div className="menu-item">
+          <img className="item"></img>
+          <h2>Poulet DG</h2>
+          <p>6000FCFA</p>
+        </div>
+        <div className="menu-item">
+          <img className="item"></img>
+          <h2>Poulet Braisé</h2>
+          <p>6000FCFA</p>
+        </div>
+        <div className="menu-item">
+          <img className="item"></img>
+          <h2>Poisson Braisé</h2>
+          <p>6000FCFA</p>
+        </div>
+        <div className="menu-item spec">
+          <img className="item"></img>
+          <h2>Taro Sauce Jaune</h2>
+          <p>6000FCFA</p>
+        </div>
+        <div className="menu-item spec">
+          <img className="item"></img>
+          <h2>Bouillon Chaud</h2>
+          <p>6000FCFA</p>
+        </div>
+        <div className="menu-item">
+          <img className="item"></img>
+          <h2>Ndole</h2>
+          <p>6000FCFA</p>
+        </div>
+        <div className="menu-item">
+          <img className="item"></img>
+          <h2>Saucisses</h2>
+          <p>6000FCFA</p>
+        </div>
+        <div className="menu-item">
+          <img className="item"></img>
+          <h2>Émincés de boeuf</h2>
+          <p>6000FCFA</p>
+        </div>
+        <div className="menu-item">
+          <img className="item"></img>
+          <h2>Tripes de boeuf</h2>
+          <p>6000FCFA</p>
+        </div>
+        <div className="menu-item">
+          <img className="item"></img>
+          <h2>Rognon de boeuf Sauté</h2>
+          <p>6000FCFA</p>
+        </div>
+      </div>
     </div>
   );
 }
